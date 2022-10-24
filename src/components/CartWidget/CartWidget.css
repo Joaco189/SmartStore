@@ -1,0 +1,9 @@
+.cart-icon-container{
+    width: 2.5rem;
+    position: absolute;
+    right: 25px;
+}
+
+.cart-icon{
+    width: 100%;
+}
