@@ -1,13 +1,11 @@
 import "./App.css"
 import "normalize.css"
-import NavBar from "./components/NavBar/NavBar";
-import ItemListContainer from "./containers/ItemListContainer/ItemListContainer";
+import Router from "./routes/Router";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <ItemListContainer greeting={"Hola, ¿Cómo estas?"}/>
+      <Router/>
     </div>
   );
 }
