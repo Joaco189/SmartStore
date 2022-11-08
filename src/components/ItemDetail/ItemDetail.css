@@ -32,3 +32,19 @@
 .item-detail-price{
     font-size: 2rem;
 }
+
+.go-to-cart{
+    width: 9rem;
+    height: 2rem;
+    margin-top: 2.2rem;
+    color: #1782e6;
+    background-color: #06163d;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: all .2s;
+}
+    
+.go-to-cart:hover{
+    transform: scale(1.1);
+}
