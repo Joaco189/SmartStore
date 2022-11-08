@@ -3,7 +3,7 @@ import "./Item.css"
 
 const Item = ({producto}) => {
 
-    const priceFormat = parseFloat(producto.price).toLocaleString("es-ES", {style:"currency", currency:"ARS"})
+    const priceFormat = parseInt(producto.price).toLocaleString("es-ES", {style:"currency", currency:"ARS"})
 
     const navigate = useNavigate()
     
