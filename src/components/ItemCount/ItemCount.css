@@ -1,0 +1,59 @@
+.item-count-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.item-counter{
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.item-counter div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    padding-inline: 0.5rem;
+    margin-inline: 0.5rem;
+    font-size: 1.25rem;
+    color: #1782e6;
+    background-color: #06163d;
+    border-radius: 15px;
+}
+
+.item-counter button{
+    width: 2rem;
+    height: 2rem;
+    color: #1782e6;
+    background-color: #06163d;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.item-counter button:hover{
+    transform: scale(1.12);
+}
+
+.item-purchase{
+    margin-left: 1rem;
+}
+
+.item-purchase button{
+    width: 5rem;
+    height: 2rem;
+    color: #1782e6;
+    background-color: #06163d;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.item-purchase button:hover{
+    transform: scale(1.1);
+}
